@@ -4,13 +4,13 @@ import java.util.*;
 
 
 /*
-Autor: Juan Esteban Sarmiento Benitez
+Autores: Juan Esteban Sarmiento Benitez Y Nicolas Gomez Leon
  */
 public class CuentaBancaria {
 
     public static void main(String[] args) { //Metodo Main
-        Titular titular1 = new Titular("Juanes","1013259863",19,"Bogota, Colombia",3000000); //Crear una cuenta de titular
-        Titular titular2 = new Titular("Paco","1063275893",26,"Bucaramanga, Colombia",6000000); // Se creo un nuevo titular para la cuenta 2
+        Titular titular1 = new Titular("Juanes","1013259863",19,"Calle 200 #124-28c",3000000); //Crear una cuenta de titular
+        Titular titular2 = new Titular("Paco","1063275893",26,"Cra69 #245b-25",6000000); // Se creo un nuevo titular para la cuenta 2
         Cuenta cuenta1 = new Cuenta(34567821,titular1,"ahorros",0,8976); //Crear cuenta bancaria
         Cuenta cuenta2 = new Cuenta(67898752,titular2,"ahorros",0,7893);//Se creo una segunda cuenta para hacer la transferencia
         

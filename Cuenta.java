@@ -52,8 +52,8 @@ public class Cuenta {
             return; //return sin nada para que acabe ahi el if
         }
         saldo += monto1; //Al valor del saldo se le suma y establece como nuevo saldo el resultado
-        historialOperaciones.add("Consignación de: $" + monto1 + " Nuevo saldo: $" + saldo); //Se añade a la lista de ops una nueva entrada
-        System.out.println("Consignación exitosa. Nuevo saldo: $" + saldo); //Confirma que se completó la consignación
+        historialOperaciones.add("Consignacion de: $" + monto1 + " Nuevo saldo: $" + saldo); //Se añade a la lista de ops una nueva entrada
+        System.out.println("Consignacion exitosa. Nuevo saldo: $" + saldo); //Confirma que se completó la consignación
     }
     //Metodo retirar
     public void retirar(double monto2) {
