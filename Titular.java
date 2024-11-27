@@ -69,5 +69,9 @@ public Titular (String nombre, String identificacion, int edad, String direccion
                 break;
         }
     }
+    @Override
+    public String toString() {
+        return nombre; // Devuelve solo el nombre
+    }
 }
 
